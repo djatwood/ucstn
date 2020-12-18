@@ -1,5 +1,5 @@
 <section class="min-h-screen flex flex-col justify-center bg-gray-400">
   <div class="content-width">
-    <h1 class="text-5xl">Quality and Reliable Contract Services</h1>
+    <h1>Header</h1>
   </div>
 </section>
