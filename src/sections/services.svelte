@@ -8,7 +8,7 @@
 
   export let services;
 
-  let servicesIsOpen = true;
+  let servicesIsOpen = false;
 </script>
 
 <section class="flex flex-col justify-center py-20 px-32">
