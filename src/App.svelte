@@ -17,6 +17,13 @@
   .content-width {
     @apply w-full max-w-screen-2xl p-12 mx-auto box-border;
   }
+
+  p {
+    @apply text-lg;
+  }
+  p:not(:last-child) {
+    @apply mb-3;
+  }
 </style>
 
 <main class="bg-gray-50">
