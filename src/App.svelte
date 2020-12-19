@@ -16,7 +16,7 @@
   }
 </style>
 
-<main>
+<main class="bg-gray-50">
   <Header />
   <Services {services} />
   <Contact />
