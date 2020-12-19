@@ -11,7 +11,7 @@
   let servicesIsOpen = false;
 </script>
 
-<section class="flex flex-col justify-center py-20 px-32">
+<section class="flex flex-col justify-center">
   <div class="content-width">
     <h2 class="text-5xl text-gray-800 font-bold mb-6">Services</h2>
 

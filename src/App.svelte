@@ -11,6 +11,9 @@
   @tailwind components;
   @tailwind utilities;
 
+  section {
+    @apply py-12;
+  }
   .content-width {
     @apply w-full max-w-screen-2xl p-12 mx-auto box-border;
   }
