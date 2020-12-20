@@ -4,20 +4,24 @@
   }
   input,
   textarea {
-    @apply px-4 py-2 border border-gray-200 mt-1 text-lg rounded-md;
+    @apply w-full px-4 py-2 border border-gray-200 mt-1 text-lg rounded-md;
+  }
+
+  .submit {
+    background: #ffd5cd;
   }
 </style>
 
 <section class="flex flex-col justify-center">
   <div class="content-width">
-    <h2 class="text-5xl text-gray-800 font-bold mb-6">Request a quote</h2>
+    <h2>Request a quote</h2>
 
     <div class="grid gap-8 lg:grid-cols-2">
       <form class="flex flex-col lg:row-span-2" action="">
         <label>Full Name <input type="text" name="name" /> </label>
         <label>Email <input type="email" name="email" /> </label>
         <label>Message <textarea name="message" cols="30" rows="10" /> </label>
-        <input type="submit" value="Submit" />
+        <input class="submit border-0" type="submit" value="Submit" />
       </form>
 
       <div>
@@ -35,7 +39,7 @@
       <div>
         <img
           class="w-full h-full object-cover object-center"
-          src="https://via.placeholder.com/950x500"
+          src="/img/extra-wide.svg"
           alt="" />
       </div>
     </div>

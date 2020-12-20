@@ -13,12 +13,12 @@
 
 <section class="flex flex-col justify-center">
   <div class="content-width">
-    <h2 class="text-5xl text-gray-800 font-bold mb-6">Services</h2>
+    <h2>Services</h2>
 
     <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
       {#each services as { name, color, services }}
         <div
-          class="flex flex-col justify-between px-10 py-6 rounded-md"
+          class="flex flex-col justify-between px-10 py-8 rounded-md"
           style="background:#{color}">
           <ShieldIcon size="40" />
           <h3 class="text-2xl my-2 font-bold">{name}</h3>

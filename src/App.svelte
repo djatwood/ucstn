@@ -11,6 +11,23 @@
   @tailwind components;
   @tailwind utilities;
 
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-800 font-bold;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    @apply text-5xl  mb-6;
+  }
+
   section {
     @apply py-12;
   }
@@ -19,7 +36,7 @@
   }
 
   p {
-    @apply text-lg;
+    @apply text-lg text-gray-700;
   }
   p:not(:last-child) {
     @apply mb-3;
