@@ -10,6 +10,10 @@
   .submit {
     background: #ffd5cd;
   }
+
+  .dbe-seal {
+    max-width: 150px;
+  }
 </style>
 
 <section class="flex flex-col justify-center">
@@ -25,7 +29,7 @@
       </form>
 
       <div>
-        <h3 class="text-2xl text-gray-800 font-bold mb-2">Extra Information</h3>
+        <h3 class="text-2xl text-gray-800 font-bold mb-2">About us</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac
           enim sapien. Maecenas aliquam sodales tempus. Mauris eget cursus
@@ -36,11 +40,17 @@
         </p>
       </div>
 
-      <div>
-        <img
+      <div class="flex justify-end items-end">
+        <a class="flex justify-end" href="dbe.pdf" target="_blank">
+          <img
+            class="dbe-seal"
+            src="/img/dbe-seal.png"
+            alt="We are a certified Minority Owned Business" />
+        </a>
+        <!-- <img
           class="w-full h-full object-cover object-center"
           src="/img/extra-wide.svg"
-          alt="" />
+          alt="" /> -->
       </div>
     </div>
   </div>
