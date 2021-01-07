@@ -1,7 +1,8 @@
 <script>
   import Header from "./sections/header.svelte";
-  import Services from "./sections/services.svelte";
+  import Products from "./sections/products.svelte";
   import Contact from "./sections/contact.svelte";
+  import Footer from "./sections/footer.svelte";
 
   export let services;
 </script>
@@ -32,7 +33,7 @@
     @apply py-12;
   }
   .content-width {
-    @apply w-full max-w-screen-2xl p-12 mx-auto box-border;
+    @apply w-full max-w-screen-2xl px-12 mx-auto box-border;
   }
 
   p {
@@ -45,6 +46,7 @@
 
 <main class="bg-gray-50">
   <Header />
-  <Services {services} />
+  <Products {services} />
   <Contact />
+  <Footer />
 </main>

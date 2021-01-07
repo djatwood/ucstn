@@ -1,6 +1,5 @@
 <script>
   import {
-    ShieldIcon,
     ChevronUpIcon,
     ChevronDownIcon,
   } from "svelte-feather-icons";
@@ -11,25 +10,31 @@
   let servicesIsOpen = false;
 </script>
 
+<style lang="postcss">
+  .product-grid {
+    @apply grid gap-8 grid-cols-2 lg:grid-cols-4;
+  }
+
+  .icon {
+    max-width: 150px;
+  }
+</style>
+
 <section class="flex flex-col justify-center">
   <div class="content-width">
-    <h2>Services</h2>
+    <h2>Products</h2>
 
-    <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-      {#each services as { name, color, services }}
+    <div class="product-grid">
+      {#each services as { name, color, img }}
         <div
-          class="flex flex-col justify-between px-10 py-8 rounded-md"
+          class="flex flex-col justify-center items-center px-10 py-8 rounded-md text-center"
           style="background:#{color}">
-          <ShieldIcon size="40" />
-          <h3 class="text-2xl my-2 font-bold">{name}</h3>
-          <p class="text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            consequat nibh id massa molestie tincidunt.
-          </p>
+          <img class="icon w-9/12" src="/img/{img}" alt={name} />
+          <h3 class="text-3xl my-2 font-bold">{name}</h3>
         </div>
       {/each}
     </div>
-    <div class="mt-10 flex justify-center">
+    <div class="my-6 flex justify-center">
       <button
         class="flex items-center"
         on:click={() => (servicesIsOpen = !servicesIsOpen)}>
@@ -38,15 +43,13 @@
         {:else}
           <ChevronDownIcon size="20" />
         {/if}
-        See details
+        Click to view all products
       </button>
     </div>
     {#if servicesIsOpen}
-      <div
-        class="grid gap-8 md:grid-cols-2 xl:grid-cols-4 mt-4"
-        transition:scale={{ start: 0.9 }}>
+      <div class="product-grid mt-4" transition:scale={{ start: 0.9 }}>
         {#each services as { name, services }}
-          <div>
+          <div class="px-8">
             <h3 class="mb-2 font-bold text-lg text-gray-700">{name}</h3>
             <ul class="text-gray-600">
               {#each services as service}
