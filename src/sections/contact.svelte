@@ -31,12 +31,15 @@
       <div>
         <h3 class="text-2xl text-gray-800 font-bold mb-2">About us</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac
-          enim sapien. Maecenas aliquam sodales tempus. Mauris eget cursus
-          neque, nec interdum risus. Praesent pretium varius lacinia. Sed metus
-          elit, hendrerit vitae consectetur sit amet, dapibus ut quam. Curabitur
-          sit amet ligula porttitor, ornare ante non, molestie nisl. Proin lorem
-          ipsum, egestas in pulvinar in, faucibus vitae justo.
+          Universal Contract Services is a Minority Owned Independent Supplier
+          of goods based in Middle Tennessee seeking to provide Paper Products
+          to Correctional Facilities, and Federal, State, and City Governments
+          as well as Medical Centers. Our #1 priority is to provide courteous,
+          professional services with competitive prices. With over 20 years of
+          combined sales and government procurement experience we are sure our
+          customers have selected the best choice to purchase their goods from
+          Universal Contract Service. Please feel free to Request a Quote, we
+          would love to have your business.
         </p>
       </div>
 
