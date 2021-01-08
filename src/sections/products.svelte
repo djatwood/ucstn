@@ -1,8 +1,5 @@
 <script>
-  import {
-    ChevronUpIcon,
-    ChevronDownIcon,
-  } from "svelte-feather-icons";
+  import { ChevronUpIcon, ChevronDownIcon } from "svelte-feather-icons";
   import { scale } from "svelte/transition";
 
   export let services;
@@ -25,10 +22,11 @@
     <h2>Products</h2>
 
     <div class="product-grid">
-      {#each services as { name, color, img }}
+      {#each services as { name, img }}
         <div
-          class="flex flex-col justify-center items-center px-10 py-8 rounded-md text-center"
-          style="background:#{color}">
+          class="flex flex-col justify-center items-center px-10 py-8 rounded-md text-center cursor-pointer"
+          style="background:#90ee90"
+          on:click={() => (servicesIsOpen = !servicesIsOpen)}>
           <img class="icon w-9/12" src="/img/{img}" alt={name} />
           <h3 class="text-3xl my-2 font-bold">{name}</h3>
         </div>
@@ -43,7 +41,9 @@
         {:else}
           <ChevronDownIcon size="20" />
         {/if}
-        Click to view all products
+        Click to
+        {servicesIsOpen ? 'close' : 'view'}
+        all products
       </button>
     </div>
     {#if servicesIsOpen}

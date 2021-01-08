@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<svg viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg">
+  <title/>
+  <g id="wipe-sufraces">
+    <path d="M50.186,20.9l5.277,5.276a6.821,6.821,0,0,1,0,9.644L36.822,54.463a6.82,6.82,0,0,1-9.644,0L26.716,54" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <path d="M9.608,36.892l-1.071-1.07a6.82,6.82,0,0,1,0-9.644L27.178,7.537a6.82,6.82,0,0,1,9.644,0l8.142,8.142" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <line style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" x1="9" x2="9" y1="5" y2="7"/>
+    <line style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" x1="9" x2="9" y1="11" y2="13"/>
+    <line style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" x1="5" x2="7" y1="9" y2="9"/>
+    <line style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px" x1="11" x2="13" y1="9" y2="9"/>
+    <circle cx="51.5" cy="56.5" r="2.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <path d="M60.151,47.6a1.069,1.069,0,1,1-1.069-1.069A1.069,1.069,0,0,1,60.151,47.6Z"/>
+    <path d="M23.557,35.691,37.038,22.21a2.478,2.478,0,0,1,3.5,0h0a2.478,2.478,0,0,1,0,3.5L27.059,39.193" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <path d="M27.059,39.193l9.955-9.956a2.51,2.51,0,0,1,3.549,0h0a2.51,2.51,0,0,1,0,3.549l-9.955,9.956" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <path d="M30.071,43.278l7.622-7.621a2.442,2.442,0,0,1,3.454,0h0a2.442,2.442,0,0,1,0,3.454L28.724,51.533A44.728,44.728,0,0,1,21.4,57.454l-5.957,3.857L4.357,50.222s3.67-5.4,4.291-8.677L12.893,26.5a2.718,2.718,0,0,1,2.928-2.2h0A2.719,2.719,0,0,1,18.266,27.3l-2,8.679L30.619,21.627a2.475,2.475,0,0,1,3.5,0h0a2.475,2.475,0,0,1,0,3.5" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    <polygon points="50.386 15.219 56.533 17.037 50.386 18.855 49.033 24.537 47.681 18.855 41.533 17.037 47.681 15.219 49.033 9.537 50.386 15.219" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+  </g>
+</svg>

@@ -5,7 +5,7 @@ const app = new App({
   props: {
     services: [
       {
-        name: "Toilet Paper", color: "8675a9", img: "toilet-paper.png", services: [
+        name: "Toilet Paper", img: "toilet-paper.svg", services: [
           "Center Pull Toilet Paper Dispenser",
           "Center Pull Toilet Paper",
           "Coreless Dispensers",
@@ -22,7 +22,7 @@ const app = new App({
         ]
       },
       {
-        name: "Paper Towels", color: "c3aed6", img: "paper-towels.png", services: [
+        name: "Paper Towels", img: "paper-towels.svg", services: [
           "C-Fold Paper Towels",
           "Center Pull Paper Towels",
           "Kitchen Paper Towels",
@@ -35,7 +35,7 @@ const app = new App({
         ]
       },
       {
-        name: "Napkins", color: "efbbcf", img: "napkin.png", services: [
+        name: "Napkins", img: "napkin.svg", services: [
           "Beverage Napkins",
           "Dinner Napkins",
           "Facial Tissues",
@@ -44,7 +44,7 @@ const app = new App({
         ]
       },
       {
-        name: "Wipes", color: "ffd5cd", img: "wipe.png", services: [
+        name: "Wipes", img: "wipe.svg", services: [
           "All Purpose Wipes",
           "Automotive Wipers",
           "Baby Wipes",
