@@ -15,7 +15,7 @@
 
 <section class="flex flex-col justify-center">
   <div class="content-width">
-    <h1 class="mb-4 text-7xl leading-snug">Quick Reliable Quality</h1>
+    <h1 class="mb-4 text-7xl leading-snug">Universal Contract Services</h1>
     <p class="text-3xl">Contract services you can trust</p>
     <button class="px-4 py-2 mt-4 bg-black rounded-md">
       Request a quote
