@@ -1,22 +1,4 @@
-<style lang="postcss">
-  label {
-    @apply flex flex-col text-lg mb-4 text-gray-700;
-  }
-  input,
-  textarea {
-    @apply w-full px-4 py-2 border border-gray-200 mt-1 text-lg rounded-md;
-  }
-
-  .submit {
-    background: #ffd5cd;
-  }
-
-  .dbe-seal {
-    max-width: 150px;
-  }
-</style>
-
-<section class="flex flex-col justify-center">
+<section id="contact" class="flex flex-col justify-center">
   <div class="content-width">
     <h2>Request a quote</h2>
 
@@ -48,7 +30,8 @@
           <img
             class="dbe-seal"
             src="/img/dbe-seal.png"
-            alt="We are a certified Minority Owned Business" />
+            alt="We are a certified Minority Owned Business"
+          />
         </a>
         <!-- <img
           class="w-full h-full object-cover object-center"
@@ -58,3 +41,21 @@
     </div>
   </div>
 </section>
+
+<style lang="postcss">
+  label {
+    @apply flex flex-col text-lg mb-4 text-gray-700;
+  }
+  input,
+  textarea {
+    @apply w-full px-4 py-2 border border-gray-200 mt-1 text-lg rounded-md;
+  }
+
+  .submit {
+    background: #ffd5cd;
+  }
+
+  .dbe-seal {
+    max-width: 150px;
+  }
+</style>
