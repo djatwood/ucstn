@@ -7,16 +7,6 @@
   let servicesIsOpen = false;
 </script>
 
-<style lang="postcss">
-  .product-grid {
-    @apply grid gap-8 grid-cols-2 lg:grid-cols-4;
-  }
-
-  .icon {
-    max-width: 150px;
-  }
-</style>
-
 <section class="flex flex-col justify-center">
   <div class="content-width">
     <h2>Products</h2>
@@ -26,7 +16,8 @@
         <div
           class="flex flex-col justify-center items-center px-10 py-8 rounded-md text-center cursor-pointer"
           style="background:#90ee90"
-          on:click={() => (servicesIsOpen = !servicesIsOpen)}>
+          on:click={() => (servicesIsOpen = !servicesIsOpen)}
+        >
           <img class="icon w-9/12" src="/img/{img}" alt={name} />
           <h3 class="text-3xl my-2 font-bold">{name}</h3>
         </div>
@@ -42,7 +33,7 @@
           <ChevronDownIcon size="20" />
         {/if}
         Click to
-        {servicesIsOpen ? 'close' : 'view'}
+        {servicesIsOpen ? "close" : "view"}
         all products
       </button>
     </div>
@@ -62,3 +53,13 @@
     {/if}
   </div>
 </section>
+
+<style lang="postcss">
+  .product-grid {
+    @apply grid gap-8 sm:grid-cols-2 lg:grid-cols-4;
+  }
+
+  .icon {
+    max-width: 150px;
+  }
+</style>

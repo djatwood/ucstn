@@ -7,6 +7,13 @@
   export let services;
 </script>
 
+<main class="bg-gray-50">
+  <Header />
+  <Products {services} />
+  <Contact />
+  <Footer />
+</main>
+
 <style global lang="postcss">
   @tailwind base;
   @tailwind components;
@@ -37,16 +44,9 @@
   }
 
   p {
-    @apply text-lg text-gray-700;
+    @apply text-lg text-gray-700 mb-3;
   }
-  p:not(:last-child) {
-    @apply mb-3;
+  p:last-child {
+    @apply mb-0;
   }
 </style>
-
-<main class="bg-gray-50">
-  <Header />
-  <Products {services} />
-  <Contact />
-  <Footer />
-</main>
