@@ -3,11 +3,12 @@
     <h2>Request a quote</h2>
 
     <div class="grid gap-8 lg:grid-cols-2">
-      <form class="flex flex-col lg:row-span-2" method="POST" name="Contact" netlify>
+      <form class="flex flex-col lg:row-span-2" method="POST">
         <label>Full Name <input type="text" name="name" /></label>
         <label>Email <input type="email" name="email" /></label>
         <label>Message <textarea name="message" cols="30" rows="10" /></label>
-        <input class="submit border-0" type="submit" value="Submit" />
+        <input type="hidden" name="form-name" value="Contact" />
+        <button class="submit" type="submit">Submit</button>
       </form>
 
       <div>
