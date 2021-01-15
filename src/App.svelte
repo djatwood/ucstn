@@ -7,12 +7,12 @@
   export let services;
 </script>
 
-<main class="bg-gray-50">
+<div class="bg-gray-50">
   <Header />
   <Products {services} />
   <Contact />
   <Footer />
-</main>
+</div>
 
 <style global lang="postcss">
   @tailwind base;
