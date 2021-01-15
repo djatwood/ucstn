@@ -14,8 +14,7 @@
     <div class="product-grid">
       {#each services as { name, img }}
         <div
-          class="flex flex-col justify-center items-center px-10 py-8 rounded-md text-center cursor-pointer"
-          style="background:#90ee90"
+          class="service flex flex-col justify-center items-center px-10 py-8 rounded-md text-center cursor-pointer"
           on:click={() => (servicesIsOpen = !servicesIsOpen)}
         >
           <img class="icon w-9/12" src="/img/{img}" alt={name} />
@@ -58,7 +57,9 @@
   .product-grid {
     @apply grid gap-8 sm:grid-cols-2 lg:grid-cols-4;
   }
-
+  .service {
+    background: #90ee90;
+  }
   .icon {
     max-width: 150px;
   }
