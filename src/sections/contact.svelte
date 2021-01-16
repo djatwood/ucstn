@@ -8,7 +8,7 @@
         <label>Email <input type="email" name="email" /></label>
         <label>Message <textarea name="message" cols="30" rows="10" /></label>
         <input type="hidden" name="form-name" value="Contact" />
-        <button class="submit" type="submit">Submit</button>
+        <input class="submit" type="submit" value="Submit" />
       </form>
 
       <div>
@@ -49,7 +49,7 @@
   }
 
   .submit {
-    background: #ffd5cd;
+    background: #90ee90;
   }
 
   .dbe-seal {
