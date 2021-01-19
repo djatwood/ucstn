@@ -9,7 +9,7 @@
 
 <section class="flex flex-col justify-center">
   <div class="content-width">
-    <h2>Products</h2>
+    <h2 class="mb-6">Products</h2>
 
     <div class="product-grid">
       {#each services as { name, img }}

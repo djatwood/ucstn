@@ -1,6 +1,7 @@
 <section id="contact" class="flex flex-col justify-center">
   <div class="content-width">
-    <h2>Request a quote</h2>
+    <h2 class="mb-2">Request a quote</h2>
+    <p>Or give us a call at <a class="hover:underline" href="tel:(615) 227-1594">(615) 227-1594</a></p>
 
     <div class="grid gap-8 lg:grid-cols-2">
       <form class="flex flex-col lg:row-span-2" method="POST">

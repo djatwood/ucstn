@@ -33,7 +33,7 @@
     font-family: "Roboto", sans-serif;
   }
   h2 {
-    @apply text-5xl  mb-6;
+    @apply text-5xl;
   }
 
   section {
