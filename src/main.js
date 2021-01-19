@@ -46,7 +46,7 @@ const app = new App({
       {
         name: "Wipes", img: "wipe.svg", services: [
           "All Purpose Wipes",
-          "Automotive Wipers",
+          "Automotive Wipes",
           "Baby Wipes",
           "Cleaning Cloth",
           "Disinfecting Wipes",
@@ -55,7 +55,7 @@ const app = new App({
           "Personal Care Wipes",
           "Rags",
           "Specialty Wipes",
-          "Utility Wipers",
+          "Utility Wipes",
         ]
       },
     ]
