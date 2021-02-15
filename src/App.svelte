@@ -1,5 +1,6 @@
 <script>
   import Header from "./sections/header.svelte";
+  import About from "./sections/about.svelte";
   import Products from "./sections/products.svelte";
   import Contact from "./sections/contact.svelte";
   import Footer from "./sections/footer.svelte";
@@ -9,6 +10,7 @@
 
 <div class="bg-gray-50">
   <Header />
+  <About />
   <Products {services} />
   <Contact />
   <Footer />
@@ -46,7 +48,7 @@
   p {
     @apply text-lg text-gray-700 mb-3;
   }
-  p:last-child {
+  p:last-of-type {
     @apply mb-0;
   }
 </style>
