@@ -4,7 +4,12 @@
 
   export let services;
 
-  let servicesIsOpen = false;
+  const mediaQuery = window.matchMedia("(min-width: 1024px)");
+  let servicesIsOpen = mediaQuery.matches;
+  mediaQuery.addEventListener(
+    "change",
+    () => (servicesIsOpen = mediaQuery.matches)
+  );
 </script>
 
 <section class="flex flex-col justify-center">
@@ -25,7 +30,8 @@
     <div class="my-6 flex justify-center">
       <button
         class="flex items-center"
-        on:click={() => (servicesIsOpen = !servicesIsOpen)}>
+        on:click={() => (servicesIsOpen = !servicesIsOpen)}
+      >
         {#if servicesIsOpen}
           <ChevronUpIcon size="20" />
         {:else}
