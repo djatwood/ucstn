@@ -5,4 +5,4 @@ title = "Universal Contract Services"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [build]
-  writeStats = true
+    writeStats = true

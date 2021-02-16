@@ -2,55 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
 
-  <!-- Primary Meta Tags -->
-  <title>Universal Contract Services</title>
-  <meta name="title" content="Universal Contract Services">
-  <meta name="description"
-    content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers. ">
+    <!-- Primary Meta Tags -->
+    <title>Universal Contract Services</title>
+    <meta name="title" content="Universal Contract Services">
+    <meta name="description"
+        content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers. ">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://universalcontractservices.com/">
-  <meta property="og:title" content="Universal Contract Services">
-  <meta property="og:description"
-    content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers.">
-  <meta property="og:image" content="/img/social.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://universalcontractservices.com/">
+    <meta property="og:title" content="Universal Contract Services">
+    <meta property="og:description"
+        content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers.">
+    <meta property="og:image" content="/img/social.jpg">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://universalcontractservices.com/">
-  <meta property="twitter:title" content="Universal Contract Services">
-  <meta property="twitter:description"
-    content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers.">
-  <meta property="twitter:image" content="/img/social.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://universalcontractservices.com/">
+    <meta property="twitter:title" content="Universal Contract Services">
+    <meta property="twitter:description"
+        content="Universal Contract Services is a Minority Owned Independent Supplier of goods based in Middle Tennessee seeking to provide Paper Products to Correctional Facilities, and Federal, State, and City Governments as well as Medical Centers.">
+    <meta property="twitter:image" content="/img/social.jpg">
 
-  <link rel='icon' type='image/png' href='/favicon.png'>
+    <link rel='icon' type='image/png' href='/favicon.png'>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@700&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
 
-  <script defer src="https://unpkg.com/feather-icons"></script>
+    <script defer src="https://unpkg.com/feather-icons"></script>
 
-  {{ $styles := resources.Get "css/main.css" | postCSS }}
-  {{ $scripts := resources.Get "js/main.js" }}
-  {{ if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-  <script defer src="{{ $scripts.Permalink }}"></script>
-  {{ else }}
-  {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
-  {{ $scripts := $scripts | minify }}
-  <script defer src="{{ $scripts.Permalink }}"></script>
-  {{ end }}
+    {{ $styles := resources.Get "css/main.css" | postCSS }}
+    {{ $scripts := resources.Get "js/main.js" }}
+    {{ if .Site.IsServer }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+    <script defer src="{{ $scripts.Permalink }}"></script>
+    {{ else }}
+    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
+    {{ $scripts := $scripts | minify }}
+    <script defer src="{{ $scripts.Permalink }}"></script>
+    {{ end }}
 </head>
 
 <body class="bg-gray-50">
-  <main>{{ block "main" . }}{{ end }}</main>
-  {{ partial "footer" . }}
+    <main>{{ block "main" . }}{{ end }}</main>
+    {{ partial "footer" . }}
 </body>
 
 </html>
