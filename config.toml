@@ -1,0 +1,8 @@
+baseURL = "https://universalcontractservices.com/"
+languageCode = "en-us"
+title = "Universal Contract Services"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[build]
+  writeStats = true

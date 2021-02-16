@@ -1,37 +1,23 @@
-const production = !process.env.ROLLUP_WATCH; // or some other env var like NODE_ENV
-
 module.exports = {
-  purge: {
-    content: [
-      "./src/**/*.svelte",
-    ],
-    enabled: production
-  },
+  purge: ['layouts/**/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      display: ['Lato', 'sans-serif'],
+      body: ['Montserrat', 'sans-serif'],
+    },
+    extend: {
+      backgroundImage: theme => ({
+        'main': 'linear-gradient(#f9f9f9bb, #f9f9f9bb), url("/img/y-so-serious-white.png")',
+      }),
+      backgroundOpacity: ['main'],
+      gridTemplateColumns: {
+        "projects": "repeat(auto-fill,minmax(250px,1fr))",
+      }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
 }
-
-// module.exports = {
-//   future: { // for tailwind 2.0 compat
-//     purgeLayersByDefault: true, 
-//     removeDeprecatedGapUtilities: true,
-//   },
-//   plugins: [
-//     // for tailwind UI users only
-//     require('@tailwindcss/ui'),
-//     // other plugins here
-//   ],
-//   purge: {
-//     content: [
-//       "./src/**/*.svelte",
-//       // may also want to include base index.html
-//     ], 
-//     enabled: production // disable purge in dev
-//   },
-// };

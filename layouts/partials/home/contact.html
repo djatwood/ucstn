@@ -1,0 +1,32 @@
+<section id="contact" class="flex flex-col justify-center">
+    <div class="content-width">
+        <h2 class="mb-2">Request a quote</h2>
+        <p>
+            Or give us a call at <a class="hover:underline" href="tel:(615) 227-1594">(615) 227-1594</a>
+        </p>
+
+        <div class="grid gap-8 lg:grid-cols-2 mt-4">
+            <div>
+                <form class="flex flex-col" method="POST" netlify>
+                    <label>Full Name <input type="text" name="name" /></label>
+                    <label>Email <input type="email" name="email" /></label>
+                    <label>Message <textarea name="message" cols="30" rows="10"></textarea></label>
+                    <input type="hidden" name="form-name" value="Contact" />
+                    <input class="button" type="submit" value="Submit" />
+                </form>
+            </div>
+
+            <div class="flex flex-col justify-between">
+                <div>
+                    <a href="dbe.pdf" target="_blank">
+                        {{ $img := resources.Get "img/dbe-seal.png" }}
+                        <img class="dbe-seal" src="{{ $img.Permalink }}"
+                            alt="We are a certified Minority Owned Business" />
+                    </a>
+                </div>
+
+                <div class="w-full h-72 lg:h-full mt-12 bg-gray-300 rounded"></div>
+            </div>
+        </div>
+    </div>
+</section>
