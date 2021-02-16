@@ -17,10 +17,6 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
-h2 {
-  @apply text-5xl;
-}
-
 section {
   @apply py-12;
 }
