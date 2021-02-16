@@ -10,7 +10,7 @@
 <section class="flex flex-col justify-center p-0 overflow-hidden">
   <div class="content-width flex flex-col items-center">
     <h1 class="mb-4 text-7xl leading-snug text-center">
-      Your Business Next Paper Provider
+      Your #1 Paper Product Provider To Business
     </h1>
     <p class="max-w-4xl text-3xl text-center">Universal Contract Services provides high quality paper products with the best customer service around</p>
     <a
