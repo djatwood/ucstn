@@ -48,7 +48,7 @@
     {{ end }}
 </head>
 
-<body class="bg-gray-50">
+<body id="{{ .Kind }}" class="bg-gray-50">
     <main>{{ block "main" . }}{{ end }}</main>
     {{ partial "footer" . }}
 </body>
