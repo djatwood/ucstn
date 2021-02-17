@@ -4,9 +4,6 @@ date: 2021-02-15T21:42:14-05:00
 draft: false
 ---
 
-LOGO
-
-
 ## Core Competencies
 
 Universal Contract Services is solely owned and operated by Johnny J. Barton.

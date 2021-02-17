@@ -2,7 +2,18 @@ baseURL = "https://universalcontractservices.com/"
 languageCode = "en-us"
 title = "Universal Contract Services"
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 
 [build]
     writeStats = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Capability Statement"
+    url = "/capability-statement/"
+    weight = 20
