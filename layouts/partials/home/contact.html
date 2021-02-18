@@ -26,9 +26,15 @@
                         </tbody>
                     </table>
                     <div class="new-item flex flex-row justify-between items-center mb-4">
-                        <input class="w-1/2" type="text" placeholder="New item name">
+                        <input class="w-1/2" type="text" list="products-list" placeholder="New item name">
                         <input class="w-1/4" type="number" placeholder="Quantity">
                         <button class="px-4 py-2 border rounded bg-white" type="button">Add Item</button>
+
+                        <datalist id="products-list">
+                            {{ range .Site.Data.products }}{{ range .products }}
+                            <option>{{ . }}</option>
+                            {{ end }}{{ end }}
+                        </datalist>
                     </div>
 
                     <input type="hidden" name="form-name" value="Contact" />
