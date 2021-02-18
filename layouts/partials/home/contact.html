@@ -31,9 +31,13 @@
                         <button class="px-4 py-2 border rounded bg-white" type="button">Add Item</button>
 
                         <datalist id="products-list">
-                            {{ range .Site.Data.products }}{{ range .products }}
-                            <option>{{ . }}</option>
+                            {{ $scratch := newScratch }}
+                            {{ range .Site.Data.products}}{{ range .products}}
+                            {{ $scratch.Add "list" (slice .) }}
                             {{ end }}{{ end }}
+                            {{ range sort ($scratch.Get "list") }}
+                            <option>{{ . }}</option>
+                            {{ end }}
                         </datalist>
                     </div>
 
