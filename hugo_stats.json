@@ -5,6 +5,7 @@
       "a",
       "body",
       "button",
+      "datalist",
       "div",
       "div\n",
       "footer",
@@ -23,6 +24,7 @@
       "main",
       "meta",
       "nav",
+      "option",
       "p",
       "script",
       "section",
@@ -64,6 +66,7 @@
       "h-16",
       "h-48",
       "h-72",
+      "hidden",
       "hover:underline",
       "icon",
       "inline-block",
@@ -152,6 +155,7 @@
       "page",
       "primary",
       "products",
+      "products-list",
       "secondary"
     ]
   }
