@@ -55,7 +55,10 @@
                     </a>
                 </div>
 
-                <div class="w-full h-72 lg:h-full mt-12 bg-gray-300 rounded"></div>
+                <div class="w-full h-full mt-12">
+                    {{ $img := resources.Get "img/estimate.svg" }}
+                    <img src="{{ $img.Permalink }}" alt="">
+                </div>
             </div>
         </div>
     </div>

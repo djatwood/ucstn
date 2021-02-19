@@ -112,11 +112,6 @@ li {
 
 /* Extra stuff that I should refactor */
 
-#header img {
-  max-height: 500px;
-  width: 120vw;
-}
-
 #products .product {
   background: #90ee90;
 }
@@ -129,6 +124,7 @@ li {
   max-width: 150px;
 }
 
+#footer a,
 #footer p {
   @apply text-sm text-gray-300
 }
