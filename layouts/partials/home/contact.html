@@ -11,20 +11,8 @@
                     <label>Full Name <input type="text" name="name" required /></label>
                     <label>Email <input type="email" name="email" required /></label>
                     <label>Message <textarea name="message" cols="30" rows="10"></textarea></label>
-                    <table class="items w-full mb-2">
-                        <thead>
-                            <tr>
-                                <th class="w-1/2 pb-2 text-left font-normal">Item Name</th>
-                                <th class="pb-2 text-left font-normal">Quantity</th>
-                                <th class="hidden"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="empty">
-                                <td colspan="2" class="p-2 border-t">No Items</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    
+                    <label class="mb-0">New Item</label>
                     <div class="new-item flex flex-row justify-between items-center mb-4">
                         <input class="w-1/2" type="text" list="products-list" placeholder="New item name">
                         <input class="w-1/4" type="number" placeholder="Quantity">
@@ -40,6 +28,20 @@
                             {{ end }}
                         </datalist>
                     </div>
+                    <table class="items w-full mb-2">
+                        <thead>
+                            <tr>
+                                <th class="w-1/2 pb-2 text-left font-normal">Items</th>
+                                <th class="pb-2 text-left font-normal">Quantity</th>
+                                <th class="hidden"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="empty">
+                                <td colspan="2" class="p-2 border-t">No Items</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <input type="hidden" name="form-name" value="Contact" />
                     <input class="button" type="submit" value="Submit" />
