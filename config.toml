@@ -4,9 +4,6 @@ title = "Universal Contract Services"
 
 disableKinds = ["taxonomy", "term"]
 
-[build]
-    writeStats = true
-
 [menu]
   [[menu.main]]
     name = "Home"
