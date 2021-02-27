@@ -6,9 +6,7 @@ draft: false
 
 ## Core Competencies
 
-Universal Contract Services is solely owned and operated by Johnny J. Barton.
-
-As a former United States Federal Government Credit Card Holder that purchased goods from businesses for the Department of The Army I have gained the knowledge and experience of the importance of how the procurement process operates. Universal Contracts Services is a Hendersonville, Tennessee based Minority Small Business that seeks to provide consumables that impact businesses the day-to-day operation at a competitive price.
+Universal Contract Services is solely owned and operated by Johnny J. Barton. As a former United States Federal Government Credit Card Holder that purchased goods from suppliers to support the Department of The Army daily operation, I have gained the knowledge, skills and abilities along with the importance of how the government procurement process operates. Universal Contracts Services is a Hendersonville, Tennessee based Minority Small Business that seeks to provide consumables that impact commercial businesses and government agencies day-to-day operation at a competitive price.
 
 * Experience Customer Service Professional
 * Buying Power
@@ -20,12 +18,12 @@ As a former United States Federal Government Credit Card Holder that purchased g
 * Experience
 
 ## Experience
-As Sole Owner of Universal Contract Services, Johnny J .Barton brings over twenty years of front line, face to face customer service experience in the private sector and five years of federal government procurement experience as a Federal Government Card Holder where my daily duties as a civilian employee were to purchase supplies and services from business to support the Department of The Army.
+As Sole Owner of Universal Contract Services, Johnny J .Barton brings over twenty years of front line and face to face customer service experience in the private sector. Over five years of federal government procurement experience as a Federal Government Card Holder, my daily duties as a civilian employee were to purchase supplies and services from small businesses to support the mission of the Department of The Army.
 
 
 ## Differentiators
 
-Universal Contract Services primary goal is to partner with prime contractors that currently have contracts with Federal, State and County Correctional Facilities which would be Cost Efficient for the prime contractor for their business while allowing Universal Contract Service to provide services. Universal Contract Services would increase productivity gain market share for the prime. Studies show that hiring a subcontractor could save the prime contractor 20-30 percent saving in annual salaries.
+Universal Contract Services has uniquely positioned itself to partner with prime contractors by bringing an experienced service professionals to gain a market share for a larger company in communities where it would not be cost efficient for a prime to do business. Universal Contract Services will increase productivity and would be interested in sharing the cost of a project that the prime is seeking. Universal Contract Services could save the prime contractor 20-30 percent saving in annually.
 
 
 ## General Information
