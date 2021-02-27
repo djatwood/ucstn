@@ -23,7 +23,7 @@ As Sole Owner of Universal Contract Services, Johnny J .Barton brings over twent
 
 ## Differentiators
 
-Universal Contract Services has uniquely positioned itself to partner with prime contractors by bringing an experienced service professionals to gain a market share for a larger company in communities where it would not be cost efficient for a prime to do business. Universal Contract Services will increase productivity and would be interested in sharing the cost of a project that the prime is seeking. Universal Contract Services could save the prime contractor 20-30 percent saving in annually.
+Universal Contract Services has uniquely positioned itself to partner with prime contractors by bringing an experienced service professionals to gain a market share for a larger company in communities where it would not be cost efficient for a prime to do business. Universal Contract Services will increase productivity and would be interested in sharing the cost of a project that the prime is seeking. Universal Contract Services could save the prime contractor 20-30 percent annually.
 
 
 ## General Information
