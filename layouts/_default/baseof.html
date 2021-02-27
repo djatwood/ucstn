@@ -46,6 +46,8 @@
     {{ $scripts := $scripts | minify }}
     <script defer src="{{ $scripts.Permalink }}"></script>
     {{ end }}
+
+    {{ template "_internal/google_analytics.html" . }}
 </head>
 
 <body id="{{ .Kind }}" class="bg-gray-50">

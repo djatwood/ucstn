@@ -2,6 +2,8 @@ baseURL = "https://universalcontractservices.com/"
 languageCode = "en-us"
 title = "Universal Contract Services"
 
+googleAnalytics = "G-123456"
+
 disableKinds = ["taxonomy", "term"]
 
 [menu]
